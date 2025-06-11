@@ -1,0 +1,117 @@
+ body {
+            background-image: url('Landing/Landing\ Page.jpg');
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; 
+            padding: 20px;
+        }
+
+        .main-signin-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 500px;
+            padding: 15px;
+        }
+
+        .main-signin-container img {
+            margin-bottom: 20px;
+            max-width: 150px;
+            height: auto;
+        }
+
+        .signin-form-card {
+            background-color: #343a40;
+            padding: 2.5rem;
+            border-radius: 10px;
+            color: #fff;
+            width: 100%;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        }
+
+        .signin-form-card h1 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .signin-form-card .form-control {
+            background-color: #495057;
+            border-color: #495057;
+            color: #fff;
+        }
+
+        .signin-form-card .form-control::placeholder {
+            color: #ccc;
+        }
+
+        .signin-form-card .form-control:focus {
+            background-color: #495057;
+            border-color: #28a745;
+            box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.25);
+            color: #fff;
+        }
+
+        .signin-form-card .btn {
+            font-weight: 600;
+        }
+
+        .signin-form-card .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        .signin-form-card .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+        .signin-form-card .btn-secondary {
+            background-color: #6c757d;
+            border-color: #6c757d;
+        }
+        .signin-form-card .btn-secondary:hover {
+            background-color: #5a6268;
+            border-color: #545b62;
+        }
+
+        .signin-form-card .text-light {
+            color: #f8f9fa;
+        }
+
+        .signin-form-card .form-check-input {
+            background-color: #495057;
+            border-color: #6c757d;
+        }
+
+        .signin-form-card .form-check-input:checked {
+            background-color: #28a745;
+            border-color: #28a745;
+        }
+
+        .signin-form-card .form-check-input:focus {
+            box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.25);
+        }
+
+        @media (min-width: 576px) { 
+            .signin-form-card {
+                max-width: 450px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .signin-form-card {
+                max-width: 400px;
+            }
+        }
+
+        @media (min-width: 992px) { 
+            .signin-form-card {
+                max-width: 350px;
+            }
+        }
