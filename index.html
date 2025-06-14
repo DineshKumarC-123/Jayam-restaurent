@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <img src="Image1/1.jpg" alt="bookmytrip logo" height="50px" class="ms-3">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start bg-dark text-bg-dark"  id="offcanvasNavbar">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigation</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end  pe-3">
+                        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#service3" role="button" data-bs-toggle="dropdown" >Service</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="dineout.html">Dine-in Service</a></li>
+                                <li><a class="dropdown-item" href="cateringservice.html">Catering Service</a></li>
+                                <li><a class="dropdown-item" href="monthlyfood.html">Monthly Meals</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#gallery3">Gallery</a> </li>
+                    </ul>
+                    <div class="mt-3 mt-lg-0">
+                        <button type="button" class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#login">Get In Touch</button>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item ms-3"> <a class="nav-link text-white" aria-current="page" href="#menu1">Menu</a></li>
+                    <li class="nav-item ms-3"><a class="nav-link text-white" href="#about1">About</a></li>
+                    <li class="nav-item ms-3 dropdown"><a class="nav-link dropdown-toggle text-white" href="#service1" data-bs-toggle="dropdown">Service</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="dineout.html">Dine-in Service</a></li>
+                            <li><a class="dropdown-item" href="cateringservice.html">Catering Service</a></li>
+                            <li><a class="dropdown-item" href="monthlyfood.html">Monthly Meals</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ms-3"><a class="nav-link text-white" href="#gallery1">Gallery</a></li>
+                </ul>
+                <div class="mt-1 me-lg-5">
+                    <button type="button" class="btn btn-outline-light ms-3 mb-2 mb-lg-0" data-bs-toggle="offcanvas" data-bs-target="#login">Get In Touch</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="menu">
+        <header>
+            <video autoplay muted loop id="myVideo" class="w-100 ">
+                <source src="images/Background video.mp4" type="video/mp4">
+            </video>
+            <div class="container position-absolute top-50 start-50 translate-middle text-white text-center" id="main">
+                <h4>Discover</h4>
+                <h1>Jayam Restaurant</h1>
+                <p>Working hours</p>
+                <p>Mon-Fri 8:00 AM - 10 PM | Sunday is Holiday</p>
+                <a href="Signin.html" class="btn btn-warning text-white">Sign In</a>
+                <a href="card.html" class="btn btn-warning ms-2 text-white">Order Now</a>
+            </div>
+        </header>
+    </div>
+
+    <div id="about">
+            <div class="second position-relative"id="about1">
+                <div class="mt-5 position-absolute top-0 start-50 translate-middle-x">
+                    <div class="text-center ">
+                        <h2>Our History</h2>
+                       <p class="mt-3">Welcome. This is Jayam Restaurant. Elegant & sophisticated restaurant template. Jayam Restaurant offers different  page layouts with smart and unique designs.Jayam restaurant websites contains clearly understandable pages . Smooth animations, fast loading and engaging user experience are just some of the features this template offers. So, give it a try and dive into a world of Jayam restaurant websites.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="third">
+        <h1>Low cost. High quality.<br> Where every flavor tells a story.</h1>
+    </div>
+
+    <div id="services">
+        <div id="mainCarousel" class="carousel slide " data-bs-ride="carousel">
+            <div class="container">
+                <h1>Our Services</h1>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="carousel/1.webp" class="d-block w-100 shadow" alt="Dineout Service">
+                        <div class="carousel-caption">
+                            <h2>Dineout</h2>
+                            <p>Unlock your next great meal, effortlessly.</p>
+                            <a href="dineout.html" class="btn btn-primary">Explore Now</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="carousel/2.avif" class="d-block w-100 shadow" alt="Catering Service">
+                        <div class="carousel-caption">
+                            <h2>Catering</h2>
+                            <p>Taste the moment. We'll handle the rest.</p>
+                            <a href="cateringservice.html" class="btn btn-primary">Explore Now</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="carousel/3.webp" class="d-block w-100 shadow" alt="Monthly Meals Service">
+                        <div class="carousel-caption">
+                            <h2>Monthly meals</h2>
+                            <p>Savor home flavors, regularly and conveniently.</p>
+                            <a href="monthlyfood.html" class="btn btn-primary">Explore Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="four">
+            <div class="container">
+                <h1>Popular Dishes</h1>
+                <div class="row justify-content-center">
+                    <div class="col-lg-3 col-md-3 col-6 d-flex justify-content-center">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="Image4/1.jpg" alt="Dosa">
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1>Dosa</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-6 d-flex justify-content-center">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="Image4/2.jpg" alt="Meals">
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1>Meals</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-6 d-flex justify-content-center">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="Image4/3.jpg" alt="Chicken Biriyani">
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1>Chicken Biriyani</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-6 d-flex justify-content-center">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="Image4/4.jpg" alt="Idiyappam">
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1>Idiyappam</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4 justify-content-center">
+                    <div class="col-lg-3 col-md-3 col-6 d-flex justify-content-center">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="Image4/5.jpg" alt="Poori">
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1>Poori</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-6 d-flex justify-content-center">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="Image4/6.jpg" alt="Fish fry">
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1>Fish fry</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-6 d-flex justify-content-center">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="Image4/7.jpg" alt="Noodles">
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1>Noodles</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-6 d-flex justify-content-center">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="Image4/8.jpg" alt="Parotta">
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1>Parotta</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+    <div class="five container1 position-relative">
+        <h1>Exclusive Offers</h1>
+        <div class="slide1">            
+            <div class="item1" style="background-image: url(Image5/1.jpg);">
+                <div class="content1">
+                    <div class="name">Breakfast (₹70)</div>
+                    <div class="des">Idli, Dosa or Uttapam, Veg biryani, Vada, kesari.</div>
+                </div>
+            </div>
+            <div class="item1" style="background-image: url(Image5/2.jpg);">
+                <div class="content1">
+                    <div class="name">Lunch (₹100)</div>
+                    <div class="des">Chicken biryani, Chicken cravy, Egg cravy, Whiterice, Rasam and Sweet</div>
+                </div>
+            </div>
+            <div class="item1" style="background-image: url(Image5/3.jpg);">
+                <div class="content1">
+                    <div class="name">Dinner (₹120)</div>
+                    <div class="des">Chapati, Chicken biryani, Chicken chili,White rice,rasam, Desserts.</div>
+                </div>
+            </div>        
+        </div>
+        <div class="button1">
+            <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+    </div>
+
+     <div class="six" id="contactSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12 order-md-2 order-lg-1"> <h2 class="text-white text-center">Contact Details</h2>
+                    <div class="d-flex justify-content-center pt-3">
+                        <iframe class="border border-secondary map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3905.772093557434!2d77.69752077507923!3d11.96860013840248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bab64983088b9dd%3A0xc3b4c6e3b7b9e6e!2sLakkapuram%2C%20Erode%2C%20Tamil%20Nadu%20638002!5e0!3m2!1sen!2sin!4v1718206920191!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="mt-3 p-4 w-100 text-light text-center">
+                            <div class="span mb-2"> <i class="fa-solid fa-location-arrow"></i>
+                                <h6>Lakkapuram, Erode-638002</h6>
+                            </div>
+                            <div class="span mb-2">
+                                <i class="fa-solid fa-envelope"></i>
+                                <h6>jdjones.c@gmail.com</h6>
+                            </div>
+                            <div class="span"> <i class="fa-solid fa-phone"></i>
+                                <h6>+91 9442617267</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12 d-flex justify-content-center order-md-1 order-lg-2"> <form class="mt-3 w-75">
+                        <h2 class="text-white text-center">Get In Touch</h2>
+                        <div class="form-floating mb-3 mt-5">
+                            <input class="form-control" id="name" type="text" placeholder="Enter your name..." required />
+                            <label for="name">Full name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email" type="email" placeholder="name@example.com" required />
+                            <label for="email">Email address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" required></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <div class="d-grid"><button class="btn btn-primary btn-xl" type="submit">Submit</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/all.min.js"></script>
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var video = document.getElementById('myVideo');
+            if (video) {
+                video.playbackRate = 0.75;
+            }
+        });
+
+    let next = document.querySelector('.next')
+    let prev = document.querySelector('.prev')
+
+    next.addEventListener('click', function(){
+        let items = document.querySelectorAll('.item1')
+        document.querySelector('.slide1').appendChild(items[0])
+    })
+
+    prev.addEventListener('click', function(){
+        let items = document.querySelectorAll('.item1')
+        document.querySelector('.slide1').prepend(items[items.length - 1]) // here the length of items = 6
+    })
+</script>
+</html>
